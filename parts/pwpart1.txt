@@ -1,0 +1,21 @@
+cd ./resources/ >nul
+echo Checking for running game processes after 1 minute 30 seconds...
+echo Alternatively, close this, reopen the true stretched launcher, and select exit.
+timeout /t 90 >nul
+
+:: first initial check
+:check
+tasklist | findstr /C:"VALORANT.exe" /C:"cs2.exe" /C:"AimLab_tb.exe" >nul 2>&1
+if %errorlevel%==0 (
+    echo.
+    echo Found either VALORANT, CS2, or Aimlabs running.
+    echo.
+    echo Checking every three seconds for those three games to close...
+    goto loop
+)
+
+:loop
+tasklist | findstr /C:"VALORANT.exe" /C:"cs2.exe" /C:"AimLab_tb.exe" >nul 2>&1
+if %errorlevel%==1 (
+    taskkill /IM vibranceGUI.exe /F /T >nul
+

@@ -1,0 +1,21 @@
+@echo off
+
+:: https://stackoverflow.com/questions/4051883/batch-script-how-to-check-for-admin-rights
+net session >nul 2>&1
+if %errorLevel% == 0 (
+    echo Please do not run this script as administrator.
+    echo Relaunch without administrative privileges.
+    pause
+    exit /b
+)
+
+:: user gui made using https://www.youtube.com/watch?v=W6s33PNstgc! credit to visualize for this
+
+REM  SETUP
+set "firstDirectory=%cd%"
+cd /d %firstDirectory%/resources
+
+:: https://stackoverflow.com/questions/162291/how-to-check-if-a-process-is-running-via-a-batch-script#1329790
+tasklist /fi "ImageName eq vibranceGUI.exe" /fo csv 2>NUL | find /I "vibranceGUI.exe">NUL
+if "%ERRORLEVEL%"=="1" start SilentVibranceGUI.lnk >nul
+

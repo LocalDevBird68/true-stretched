@@ -1,0 +1,8 @@
+The format is "<username>Ø<password>Ø", add it RIGHT after "ACCOUNT:"
+DO NOT change how many lines there are in accounts.txt, leave it with only two lines as the stretched.bat depends on it.
+if thats unclear, the first line should have one account, then press enter and add the credentials of the other account.
+if for some reason, ur password contains Ø u gotta change ur password bro
+
+EXAMPLE FILE:
+ACCOUNT:LocalBird68Øyourenotgettingmypassword123Ø
+ACCOUNT:LocalBird69Østillnotmypassword1234Ø

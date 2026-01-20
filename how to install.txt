@@ -1,0 +1,12 @@
+js run installer.bat
+
+added account switcher (1/17/26)
+
+full overhaul x2 (1/17/26):
+cool new gui, auto process watcher
+
+full overhaul (11/21/25):
+complete automation, only thing the user has to do is create the custom resolution and move the gameusersettings.ini
+
+update (11/29/25):
+changed the stretched.bat stuff to now only have to ask two prompts and just better txt overall

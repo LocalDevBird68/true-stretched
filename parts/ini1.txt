@@ -1,0 +1,9 @@
+[/Script/ShooterGame.ShooterGameUserSettings]
+DefaultMonitorDeviceID=
+DefaultMonitorIndex=0
+LastConfirmedDefaultMonitorDeviceID=
+LastConfirmedDefaultMonitorIndex=0
+bShouldLetterbox=False
+bLastConfirmedShouldLetterbox=False
+bUseVSync=False
+bUseDynamicResolution=False
