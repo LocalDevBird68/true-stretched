@@ -52,7 +52,8 @@ goto inthebeninging
 :aimlabs
 start steam://rungameid/714010 >nul
 
-cls call :LOGO
+cls
+call :LOGO
 echo.
 echo Launching Aimlabs...
 echo Type the corresponding number/letter and press enter:
