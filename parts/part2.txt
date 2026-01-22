@@ -49,27 +49,112 @@ goto inthebeninging
 
 :: ---------------------------------------------------------------------------------------------------------------------------------
 
-:aimlabs
+:launchaimlabs
 start steam://rungameid/714010 >nul
+goto aimlabs
+
+:aimlabs
 
 cls
 call :LOGO
 echo.
-echo Launching Aimlabs...
 echo Type the corresponding number/letter and press enter:
 echo.
-echo [97m^> ^([96mR[97m^)elaunch Aimlabs
+echo [97m^> ^([96mL[97m^)aunch Aimlabs
+echo [97m^> ^([31mF[97m^)[97mollow Schedule (w/ VDIMS)
 echo [97m^> ^([93mM[97m^)[97main Menu
 echo [97m^> ^([93mE[97m^)[97mxit ([96mAutomatic[97m)
 
+echo.
 set /p userInput="> "
 
-if /i "%userInput%"=="r" goto aimlabs
+if /i "%userInput%"=="l" goto launchaimlabs
+if /i "%userInput%"=="f" goto aimlabsschedule
 if /i "%userInput%"=="m" goto inthebeninging
 if /i "%userInput%"=="e" goto exit
 
 :: ---------------------------------------------------------------------------------------------------------------------------------
 
+:aimlabsschedule
+:: uh check for what day it is and then do it accordingly
+:: requires levels to be setup properly in schedule.txt
+
+set firstTask=""
+set secondTask=""
+set "day=%DATE:~0,3%"
+if "%day%"=="Mon" set targetLine=1
+if "%day%"=="Tue" set targetLine=2
+if "%day%"=="Wed" set targetLine=3
+if "%day%"=="Thu" set targetLine=4
+if "%day%"=="Fri" set targetLine=5
+if "%day%"=="Sat" set targetLine=6
+if "%day%"=="Sun" set targetLine=7
+cd /d %firstDirectory%/resources
+
+cls
+call :logo
+
+if not exist schedule.txt (
+    echo.
+    echo No schedule file detected. Please create a file called [93m"schedule.txt" [97min the resources folder.
+    echo Follow the format in [93m"schedule_example.txt" [97mso it works correctly.
+    echo Press any key to return to the main menu...
+    pause >nul
+    goto inthebeninging
+)
+
+setlocal EnableDelayedExpansion
+set /a targetLine=%targetLine%
+set count=1
+for /f "tokens=*" %%a in (schedule.txt) do (
+    if !count! equ %targetLine% (set "text=%%a" & goto filterlaunchlevel)
+    set /a count+=1
+)
+
+:: ---------------------------------------------------------------------------------------------------------------------------------
+
+:filterlaunchlevel
+cd %firstDirectory%/resources/temp
+del *.txt >nul
+echo %text% > tasks.txt
+
+:: do username, gets everything before the "," then anything after the colon
+for /f "tokens=1*delims=," %%a in (tasks.txt) do (
+	echo(%%a)>first_task_temp.txt
+)
+for /f "tokens=1*delims=:" %%a in (first_task_temp.txt) do (
+	echo(%%b)>filtered_firsttask.txt
+)
+
+:: do password, gets everything after the ",", then everything before the * at the end (fixes space issue)
+for /f "tokens=1*delims=," %%a in (tasks.txt) do (
+	echo(%%b)>second_task_temp.txt
+)
+for /f "tokens=1*delims=*" %%a in (second_task_temp.txt) do (
+	echo(%%a)>filtered_secondtask.txt
+)
+
+for /F "tokens=*" %%g IN ('type filtered_firsttask.txt') do (set firstTask=%%g)
+for /F "tokens=*" %%g IN ('type filtered_secondtask.txt') do (set secondTask=%%g)
+
+echo.
+echo Press any key to launch the first task/playlist...
+pause >nul
+start %firstTask%
+echo [92m[Task Launched]
+echo.
+echo [97mPress any key to launch the second task/playlist...
+pause >nul
+start %secondTask%
+echo [92m[Task Launched]
+echo.
+echo [97mPress any key to return to the main menu...
+pause >nul
+goto inthebeninging
+
+endlocal
+
+:: ---------------------------------------------------------------------------------------------------------------------------------
 :noaccounts
 :: no accounts.txt in resources folder, just opens valorant and allows u to relaunch or exit
 
@@ -147,8 +232,8 @@ setlocal EnableDelayedExpansion
 set /a targetLine=%targetLine%
 set count=1
 for /f "tokens=*" %%a in (accounts.txt) do (
-if !count! equ %targetLine% (set "text=%%a" & goto filtercredentials)
-set /a count+=1
+    if !count! equ %targetLine% (set "text=%%a" & goto filtercredentials)
+    set /a count+=1
 )
 
 :: ---------------------------------------------------------------------------------------------------------------------------------
@@ -165,8 +250,6 @@ for /f "tokens=1*delims=Ø" %%a in (credentials.txt) do (
 )
 for /f "tokens=1*delims=:" %%a in (filtered_usernametemp.txt) do (
 	echo(%%b)>filtered_username.txt
-	:: https://stackoverflow.com/questions/6359820/how-to-set-commands-output-as-a-variable-in-a-batch-file
-	for /F "tokens=*" %%g IN ('type filtered_username.txt') do (set "user=%%g")
 )
 
 :: do password, gets everything after the Ø, then everything before the Ø at the end (fixes space issue)

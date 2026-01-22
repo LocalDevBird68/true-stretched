@@ -6,7 +6,6 @@ del /f /q GameUserSettings.ini
 del /f /q %USERPROFILE%\Desktop\VALORANT.lnk
 del /f /q C:\Users\Public\Desktop\VALORANT.lnk
 del /f /q "%cd%\resources\SilentVibranceGUI.lnk"
-del "%cd%\resources\accounts.txt"
 del "%cd%\resources\temp\*.txt"
 
 cls
