@@ -251,6 +251,8 @@ for /f "tokens=1*delims=Ø" %%a in (credentials.txt) do (
 )
 for /f "tokens=1*delims=:" %%a in (filtered_usernametemp.txt) do (
 	echo(%%b)>filtered_username.txt
+	:: https://stackoverflow.com/questions/6359820/how-to-set-commands-output-as-a-variable-in-a-batch-file
+	for /F "tokens=*" %%g IN ('type filtered_username.txt') do (set "user=%%g")
 )
 
 :: do password, gets everything after the Ø, then everything before the Ø at the end (fixes space issue)
