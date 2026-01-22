@@ -215,7 +215,8 @@ goto accountswitch
 :cs2
 start steam://rungameid/730 >nul
 
-cls call :LOGO
+cls
+call :LOGO
 echo.
 echo Launching Counter-Strike 2...
 echo Type the corresponding number/letter and press enter:
