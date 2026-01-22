@@ -110,6 +110,7 @@ for /f "tokens=*" %%a in (schedule.txt) do (
     if !count! equ %targetLine% (set "text=%%a" & goto filterlaunchlevel)
     set /a count+=1
 )
+endlocal
 
 :: ---------------------------------------------------------------------------------------------------------------------------------
 
