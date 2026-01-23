@@ -79,6 +79,10 @@ if /i "%userInput%"=="e" goto exit
 :: uh check for what day it is and then do it accordingly
 :: requires levels to be setup properly in schedule.txt
 
+cd %firstDirectory%/resources/temp
+del *.txt >nul
+cd /d %firstDirectory%/resources
+
 set firstTask=""
 set secondTask=""
 set "day=%DATE:~0,3%"
@@ -89,7 +93,6 @@ if "%day%"=="Thu" set targetLine=4
 if "%day%"=="Fri" set targetLine=5
 if "%day%"=="Sat" set targetLine=6
 if "%day%"=="Sun" set targetLine=7
-cd /d %firstDirectory%/resources
 
 cls
 call :logo
@@ -115,8 +118,6 @@ endlocal
 :: ---------------------------------------------------------------------------------------------------------------------------------
 
 :filterlaunchlevel
-cd %firstDirectory%/resources/temp
-del *.txt >nul
 echo %text% > tasks.txt
 
 :: do username, gets everything before the "," then anything after the colon
