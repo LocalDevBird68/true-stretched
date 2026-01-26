@@ -118,6 +118,7 @@ endlocal
 :: ---------------------------------------------------------------------------------------------------------------------------------
 
 :filterlaunchlevel
+cd %firstDirectory%/resources/temp
 echo %text% > tasks.txt
 
 :: do username, gets everything before the "," then anything after the colon
