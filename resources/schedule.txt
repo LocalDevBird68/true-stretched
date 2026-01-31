@@ -1,0 +1,7 @@
+Mon:aimlab://workshop?id=3365860343,aimlab://workshop?id=3435367124*
+Tue:aimlab://workshop?id=3616274722,aimlab://workshop?id=3436703662*
+Wed:aimlab://workshop?id=3365684275,aimlab://workshop?id=3438754861*
+Thu:aimlab://workshop?id=3266802818,aimlab://workshop?id=3438748559*
+Fri:aimlab://workshop?id=3365682472,aimlab://workshop?id=3438743377*
+Sat:aimlab://workshop?id=2657298283,aimlab://workshop?id=3438744569*
+Sun:aimlab://workshop?id=3006026602,aimlab://workshop?id=3365664214*
