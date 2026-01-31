@@ -35,7 +35,8 @@ PHANTOM
 
 VANDAL
 
--copy phantom
+-copy phantom's strafe and shoot and iso shield practice
+    -vandal has tighter timings so just to get the deadzoning and cs down
 
 -hop in plank all the way in the back of the range
     -ads, start strafing and shooting, following MASS
