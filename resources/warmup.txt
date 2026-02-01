@@ -50,6 +50,7 @@ DEATHMATCH
     -why? tells ur brain to get it together
 
 -one ghost dm
+-one marshal dm
 -one phantom dm
 -one vandal dm
 
