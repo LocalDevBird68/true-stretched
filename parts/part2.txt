@@ -1,18 +1,15 @@
 
 :inthebeninging
-TITLE Raven's True Stretched Launcher
-color 0f
-chcp 65001 >nul
 cls
-CALL :LOGO
+
 echo.
 echo Type the corresponding letter, then press enter:
 echo.
-echo [97m^> ^([36mA[97m^)[97mimlabs [96m([97mRelaunch Support[96m)
-echo [97m^> ^([91mV[97m^)[97mALORANT [96m([97mRelaunch Support [93mw/ [97mAccount Selection[96m)
-echo [97m^> ^([33mC[97m^)[97mounter-Strike [96m([97mRelaunch Support[96m)
-echo [97m^> ^([93mE[97m^)[97mxit
-echo [97m^> ^([31mW[97m^)[97marmup File
+echo ^> (A)imlabs (Relaunch Support)
+echo ^> (V)ALORANT (Relaunch Support w/ Account Selection)
+echo ^> (C)ounter-Strike (Relaunch Support)
+echo ^> (E)xit
+echo ^> (W)armup File
 echo.
 set /p selection="> "
 
@@ -27,11 +24,11 @@ goto inthebeninging
 
 :warmupfile
 cls
-call :LOGO
+
 
 if not exist warmup.txt (
 	echo.
-    echo No warmup file detected. Please create a file called [93m"warmup.txt" [97min the resources folder.
+    echo No warmup file detected. Please create a file called "warmup.txt" in the resources folder.
     echo Press any key to return to the main menu...
     pause >nul
     goto inthebeninging
@@ -56,14 +53,14 @@ goto aimlabs
 :aimlabs
 
 cls
-call :LOGO
+
 echo.
 echo Type the corresponding number/letter and press enter:
 echo.
-echo [97m^> ^([96mL[97m^)aunch Aimlabs
-echo [97m^> ^([31mF[97m^)[97mollow Schedule (w/ VDIMS)
-echo [97m^> ^([93mM[97m^)[97main Menu
-echo [97m^> ^([93mE[97m^)[97mxit ([96mAutomatic[97m)
+echo ^> (L)aunch Aimlabs
+echo ^> (F)ollow Schedule (w/ VDIMS)
+echo ^> (M)ain Menu
+echo ^> (E)xit (Automatic)
 
 echo.
 set /p userInput="> "
@@ -95,12 +92,12 @@ if "%day%"=="Sat" set targetLine=6
 if "%day%"=="Sun" set targetLine=7
 
 cls
-call :logo
+
 
 if not exist schedule.txt (
     echo.
-    echo No schedule file detected. Please create a file called [93m"schedule.txt" [97min the resources folder.
-    echo Follow the format in [93m"schedule_example.txt" [97mso it works correctly.
+    echo No schedule file detected. Please create a file called "schedule.txt" in the resources folder.
+    echo Follow the format in "schedule_example.txt" so it works correctly.
     echo Press any key to return to the main menu...
     pause >nul
     goto inthebeninging
@@ -144,14 +141,14 @@ echo.
 echo Press any key to launch the first task/playlist...
 pause >nul
 start %firstTask%
-echo [92m[Task Launched]
+echo [Task Launched]
 echo.
-echo [97mPress any key to launch the second task/playlist...
+echo Press any key to launch the second task/playlist...
 pause >nul
 start %secondTask%
-echo [92m[Task Launched]
+echo [Task Launched]
 echo.
-echo [97mPress any key to return to the main menu...
+echo Press any key to return to the main menu...
 pause >nul
 goto inthebeninging
 
@@ -164,11 +161,11 @@ endlocal
 cd /d C:\Riot Games\Riot Client\
 
 cls
-call :LOGO
+
 
 echo.
 echo No accounts detected.
-echo Please create a file called [93m"accounts.txt" [97min the resources folder to use account switching.
+echo Please create a file called "accounts.txt" in the resources folder to use account switching.
 echo Launching VALORANT...
 echo.
 taskkill /f /im RiotClientServices.exe >nul
@@ -176,9 +173,9 @@ start RiotClientServices.exe --launch-product=valorant --launch-patchline=live >
 
 echo Type the corresponding number/letter and press enter:
 echo.
-echo [97m^> ^([96mR[97m^)elaunch VALORANT
-echo [97m^> ^([93mM[97m^)[97main Menu
-echo [97m^> ^([93mE[97m^)[97mxit ([96mAutomatic[97m)
+echo ^> (R)elaunch VALORANT
+echo ^> (M)ain Menu
+echo ^> (E)xit (Automatic)
 echo.
 
 set /p userInput="> "
@@ -204,18 +201,18 @@ if not exist accounts.txt (
 )
 
 cls
-call :LOGO
+
 
 echo.
 echo Which account would you like to start off with?
-echo To setup multiple accounts, create a file called [93m"accounts.txt" [97min the resources folder.
-echo Please follow the format in [93m"accounts_example.txt" [97mso it works correctly.
+echo To setup multiple accounts, create a file called "accounts.txt" in the resources folder.
+echo Please follow the format in "accounts_example.txt" so it works correctly.
 echo Type the corresponding number/letter and press enter:
 echo.
-echo [97m^> Account ^([36m1[97m^)
-echo [97m^> Account ^([36m2[97m^)
-echo [97m^> ^([93mM[97m^)[97main Menu
-echo [97m^> ^([93mE[97m^)[97mxit ([96mAutomatic[97m)
+echo ^> Account (1)
+echo ^> Account (2)
+echo ^> (M)ain Menu
+echo ^> (E)xit (Automatic)
 echo.
 
 set /p targetLine="> "
@@ -266,10 +263,10 @@ for /f "tokens=1*delims=Ø" %%a in (filtered_passwordtemp.txt) do (
 )
 
 cls
-call :LOGO
+
 if "%user%"=="" set user=N/A
 echo.
-echo VALORANT account [93m#%targetLine% [97mselected, account username [96m%user%[97m. Launching...
+echo VALORANT account #%targetLine% selected, account username %user%. Launching...
 
 :: gotta end local here so it can access that variable
 endlocal
@@ -286,14 +283,14 @@ echo Press any key to copy username to clipboard...
 echo If you don't have the credentials setup, it will not copy anything to your clipboard.
 pause >nul
 type filtered_username.txt| clip >nul
-echo [92m[Username Copied]
+echo [Username Copied]
 echo.
-echo [97mPress any key to copy password to clipboard...
+echo Press any key to copy password to clipboard...
 pause >nul
 type filtered_password.txt| clip >nul
-echo [92m[Password Copied]
+echo [Password Copied]
 echo.
-echo [97mPress any key to select another account/exit and clear your clipboard...
+echo Press any key to select another account/exit and clear your clipboard...
 pause >nul
 echo. | clip >nul
 goto accountswitch
@@ -304,14 +301,14 @@ goto accountswitch
 start steam://rungameid/730 >nul
 
 cls
-call :LOGO
+
 echo.
 echo Launching Counter-Strike 2...
 echo Type the corresponding number/letter and press enter:
 echo.
-echo [97m^> ^([96mR[97m^)elaunch CS2
-echo [97m^> ^([93mM[97m^)[97main Menu
-echo [97m^> ^([93mE[97m^)[97mxit ([96mAutomatic[97m)
+echo ^> (R)elaunch CS2
+echo ^> (M)ain Menu
+echo ^> (E)xit (Automatic)
 
 set /p userInput="> "
 
