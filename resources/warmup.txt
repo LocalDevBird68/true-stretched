@@ -57,9 +57,11 @@ DEATHMATCH
 -focus on something
 	-ALWAYS KEEP MASS IN THE HEAD
 		-try to confirm before shooting
+		-give myself more time by strafing so i can aim properly
 	-need to fix my insta crouch
+		-no crouch unless u are <15m or you’ve tagged enemy and <30m
 
--limit to 3 cs or deadzones on rifle (combined, not separate) or 5 bullets on ghost
+-drill to try: limit to 3 cs or deadzones on rifle (combined, not separate) or 5 bullets on ghost
 	-if you exceed this limit, just track the enemies head while strafing but don’t shoot
 
 -two miyagi method dm
@@ -70,6 +72,7 @@ DEATHMATCH
 -one ghost dm
 -one phantom dm
 -one vandal dm
+
 repeat as necessary
 
 RANKED
