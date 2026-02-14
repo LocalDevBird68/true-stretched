@@ -1,5 +1,12 @@
 WRIST WARMUP
-https://youtube.com/shorts/NgG4JO257JI?si=ciJyIufPCNKI6fsh
+-interlace fingers and hands, spin for 15 seconds
+-curve fingers as far up hand as possible, apply pressure to fingers with other palm and use fingertips to bend the hand
+    -repeat on both hands
+    -stretches up the palm of the hand with curved fingertips
+-then keep fingers closed, point hand down as far as possible, and push it back further with other hand
+    -make sure arm is straight
+    -might need to ground elbow to table so you can apply more pressure
+    -stretch up forearm
 
 RANGE WARMUP
 
@@ -69,9 +76,10 @@ DEATHMATCH
 	-keep your movement the same, cs, dz, peeking
 		-only cs or dz once you’ve “confirmed” but don’t shoot
 
--one ghost dm
--one phantom dm
--one vandal dm
+-one good ghost dm
+-one good sheriff dm
+-one good phantom dm
+-one good vandal dm
 
 repeat as necessary
 
