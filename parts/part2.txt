@@ -251,15 +251,15 @@ for /F "tokens=*" %%g IN ('type filtered_firsttask_kovaaks.txt') do (set firstTa
 for /F "tokens=*" %%g IN ('type filtered_secondtask_kovaaks.txt') do (set secondTask=%%g)
 
 echo.
-echo Press any key to copy the share code for the first playlist...
+echo Press any key to open the first task/playlist...
 pause >nul
-type filtered_firsttask_kovaaks.txt| clip >nul
-echo [Task Copied]
+start %firstTask%
+echo [Task Launched]
 echo.
-echo Press any key to copy the share code for the second playlist...
+echo Press any key to open the second task/playlist...
 pause >nul
-type filtered_secondtask_kovaaks.txt| clip >nul
-echo [Task Copied]
+start %secondTask%
+echo [Task Launched]
 echo.
 echo Press any key to return to the main menu...
 pause >nul
