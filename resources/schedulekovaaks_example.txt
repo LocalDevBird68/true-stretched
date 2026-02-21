@@ -1,0 +1,12 @@
+Put the desired share code to copy on each day separated by a comma and ending in an asterisk. The one closest to the colon will be copied first.
+
+like the accounts one, do not change the amount of lines please, and make it start at the very first line.
+
+EXAMPLE LEVELS.TXT FILE:
+Mon:KovaaKsBobbingFlankedFlashbang,KovaaKsBobbingFlankedFlashbang*
+Tue:KovaaKsBobbingFlankedFlashbang,KovaaKsBobbingFlankedFlashbang*
+Wed:KovaaKsBobbingFlankedFlashbang,KovaaKsBobbingFlankedFlashbang*
+Thu:KovaaKsBobbingFlankedFlashbang,KovaaKsBobbingFlankedFlashbang*
+Fri:KovaaKsBobbingFlankedFlashbang,KovaaKsBobbingFlankedFlashbang*
+Sat:KovaaKsBobbingFlankedFlashbang,KovaaKsBobbingFlankedFlashbang*
+Sun:KovaaKsBobbingFlankedFlashbang,KovaaKsBobbingFlankedFlashbang*
