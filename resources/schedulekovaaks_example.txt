@@ -1,12 +1,10 @@
-Put the desired share code to copy on each day separated by a comma and ending in an asterisk. The one closest to the colon will be copied first.
+same thing as aimlabs, but use "steam://run/824270/?action=jump-to-playlist;sharecode=" and add the sharecode of the playlist at the end instead of using "aimlab://workshop?id="
 
-like the accounts one, do not change the amount of lines please, and make it start at the very first line.
-
-EXAMPLE LEVELS.TXT FILE:
-Mon:KovaaKsBobbingFlankedFlashbang,KovaaKsBobbingFlankedFlashbang*
-Tue:KovaaKsBobbingFlankedFlashbang,KovaaKsBobbingFlankedFlashbang*
-Wed:KovaaKsBobbingFlankedFlashbang,KovaaKsBobbingFlankedFlashbang*
-Thu:KovaaKsBobbingFlankedFlashbang,KovaaKsBobbingFlankedFlashbang*
-Fri:KovaaKsBobbingFlankedFlashbang,KovaaKsBobbingFlankedFlashbang*
-Sat:KovaaKsBobbingFlankedFlashbang,KovaaKsBobbingFlankedFlashbang*
-Sun:KovaaKsBobbingFlankedFlashbang,KovaaKsBobbingFlankedFlashbang*
+ex schedulekovaaks.txt file:
+Mon:steam://run/824270/?action=jump-to-playlist;sharecode=KOVAAKSGEARINGHORIZONTALWEAPONLEVEL,steam://run/824270/?action=jump-to-playlist;sharecode=KovaaKsCarryingGodlikeDink*
+Tue:steam://run/824270/?action=jump-to-playlist;sharecode=KOVAAKSTELEPORTINGJEBAITEDBUYSTATION,steam://run/824270/?action=jump-to-playlist;sharecode=KovaaKsChallengingGoldenochreBattlepass*
+Wed:steam://run/824270/?action=jump-to-playlist;sharecode=KOVAAKSNAMEDROPPINGSILVERHEAVEN,steam://run/824270/?action=jump-to-playlist;sharecode=KovaaKsChatfraggingGoldenochreRank*
+Thu:steam://run/824270/?action=jump-to-playlist;sharecode=KovaaKsGearingMehLowground,steam://run/824270/?action=jump-to-playlist;sharecode=KovaaKsChattingGoldenrodGulag*
+Fri:steam://run/824270/?action=jump-to-playlist;sharecode=KOVAAKSFLICKINGHORIZONTALCHAMPION,steam://run/824270/?action=jump-to-playlist;sharecode=KovaaKsCheatingGoodContracts*
+Sat:steam://run/824270/?action=jump-to-playlist;sharecode=KOVAAKSBOBBINGSNEAKYBLOOM,steam://run/824270/?action=jump-to-playlist;sharecode=KovaaKsChokingGooshedAimbot*
+Sun:steam://run/824270/?action=jump-to-playlist;sharecode=KovaaKsBottingShinyDoor,steam://run/824270/?action=jump-to-playlist;sharecode=KovaaKsGearingMehLowground*
