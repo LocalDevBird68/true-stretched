@@ -6,6 +6,7 @@ echo.
 echo Type the corresponding letter, then press enter:
 echo.
 echo ^> (A)imlabs (Relaunch Support)
+echo ^> (K)ovaaK's (Relaunch Support)
 echo ^> (V)ALORANT (Relaunch Support w/ Account Selection)
 echo ^> (C)ounter-Strike (Relaunch Support)
 echo ^> (E)xit
@@ -14,6 +15,7 @@ echo.
 set /p selection="> "
 
 if /I "%selection%"=="A" goto aimlabs
+if /I "%selection%"=="K" goto kovaaks
 if /I "%selection%"=="V" goto accountswitch
 if /I "%selection%"=="C" goto cs2
 if /I "%selection%"=="E" goto manualexit
@@ -156,6 +158,117 @@ goto inthebeninging
 endlocal
 
 :: ---------------------------------------------------------------------------------------------------------------------------------
+
+:launchkovaaks
+start steam://rungameid/824270 >nul
+goto kovaaks
+
+:kovaaks
+
+cls
+
+echo.
+echo Type the corresponding number/letter and press enter:
+echo.
+echo ^> (L)aunch KovaaK's
+echo ^> (F)ollow Schedule (w/ VDIMS)
+echo ^> (M)ain Menu
+echo ^> (E)xit (Automatic)
+
+echo.
+set /p userInput="> "
+
+if /i "%userInput%"=="l" goto launchkovaaks
+if /i "%userInput%"=="f" goto kovaaksschedule
+if /i "%userInput%"=="m" goto inthebeninging
+if /i "%userInput%"=="e" goto exit
+
+:: ---------------------------------------------------------------------------------------------------------------------------------
+
+:kovaaksschedule
+:: uh check for what day it is and then do it accordingly
+:: requires levels to be setup properly in schedulekovaaks.txt
+
+cd %firstDirectory%/resources/temp
+del *.txt >nul
+cd /d %firstDirectory%/resources
+
+set firstTask=""
+set secondTask=""
+set "day=%DATE:~0,3%"
+if "%day%"=="Mon" set targetLine=1
+if "%day%"=="Tue" set targetLine=2
+if "%day%"=="Wed" set targetLine=3
+if "%day%"=="Thu" set targetLine=4
+if "%day%"=="Fri" set targetLine=5
+if "%day%"=="Sat" set targetLine=6
+if "%day%"=="Sun" set targetLine=7
+
+cls
+
+
+if not exist schedulekovaaks.txt (
+    echo.
+    echo No schedule file detected. Please create a file called "schedulekovaaks.txt" in the resources folder.
+    echo Follow the format in "schedule_example.txt" so it works correctly.
+    echo Press any key to return to the main menu...
+    pause >nul
+    goto inthebeninging
+)
+
+setlocal EnableDelayedExpansion
+set /a targetLine=%targetLine%
+set count=1
+for /f "tokens=*" %%a in (schedulekovaaks.txt) do (
+    if !count! equ %targetLine% (set "text=%%a" & goto filterlaunchlevel_kovaaks)
+    set /a count+=1
+)
+endlocal
+
+:: ---------------------------------------------------------------------------------------------------------------------------------
+
+:filterlaunchlevel_kovaaks
+cd %firstDirectory%/resources/temp
+echo %text% > taskskovaaks.txt
+
+:: do username, gets everything before the "," then anything after the colon
+for /f "tokens=1*delims=," %%a in (taskskovaaks.txt) do (
+	echo(%%a)>first_task_temp_kovaaks.txt
+)
+for /f "tokens=1*delims=:" %%a in (first_task_temp_kovaaks.txt) do (
+	echo(%%b)>filtered_firsttask_kovaaks.txt
+)
+
+:: do password, gets everything after the ",", then everything before the * at the end (fixes space issue)
+for /f "tokens=1*delims=," %%a in (taskskovaaks.txt) do (
+	echo(%%b)>second_task_temp_kovaaks.txt
+)
+for /f "tokens=1*delims=*" %%a in (second_task_temp_kovaaks.txt) do (
+	echo(%%a)>filtered_secondtask_kovaaks.txt
+)
+
+for /F "tokens=*" %%g IN ('type filtered_firsttask_kovaaks.txt') do (set firstTask=%%g)
+for /F "tokens=*" %%g IN ('type filtered_secondtask_kovaaks.txt') do (set secondTask=%%g)
+
+echo.
+echo Press any key to launch the first task/playlist...
+pause >nul
+start %firstTask%
+echo [Task Launched]
+echo.
+echo Press any key to launch the second task/playlist...
+pause >nul
+start %secondTask%
+echo [Task Launched]
+echo.
+echo Press any key to return to the main menu...
+pause >nul
+goto inthebeninging
+
+endlocal
+
+:: ---------------------------------------------------------------------------------------------------------------------------------
+
 :noaccounts
 :: no accounts.txt in resources folder, just opens valorant and allows u to relaunch or exit
 
