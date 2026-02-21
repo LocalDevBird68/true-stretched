@@ -12,6 +12,12 @@ first_task_temp.txt
 second_task_temp.txt
 tasks.txt
 
+filtered_firsttask_kovaaks.txt
+filtered_secondtask_kovaaks.txt
+first_task_temp_kovaaks.txt
+second_task_temp_kovaaks.txt
+taskskovaaks.txt
+
 GameUserSettings.ini
 SilentVibranceGUI.lnk
 stretched.bat
