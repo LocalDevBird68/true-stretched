@@ -1,0 +1,7 @@
+Mon:steam://run/824270/?action=jump-to-playlist;sharecode=KOVAAKSGEARINGHORIZONTALWEAPONLEVEL,steam://run/824270/?action=jump-to-playlist;sharecode=KovaaKsCarryingGodlikeDink*
+Tue:steam://run/824270/?action=jump-to-playlist;sharecode=KOVAAKSTELEPORTINGJEBAITEDBUYSTATION,steam://run/824270/?action=jump-to-playlist;sharecode=KovaaKsChallengingGoldenochreBattlepass*
+Wed:steam://run/824270/?action=jump-to-playlist;sharecode=KOVAAKSNAMEDROPPINGSILVERHEAVEN,steam://run/824270/?action=jump-to-playlist;sharecode=KovaaKsChatfraggingGoldenochreRank*
+Thu:steam://run/824270/?action=jump-to-playlist;sharecode=KovaaKsGearingMehLowground,steam://run/824270/?action=jump-to-playlist;sharecode=KovaaKsChattingGoldenrodGulag*
+Fri:steam://run/824270/?action=jump-to-playlist;sharecode=KOVAAKSFLICKINGHORIZONTALCHAMPION,steam://run/824270/?action=jump-to-playlist;sharecode=KovaaKsCheatingGoodContracts*
+Sat:steam://run/824270/?action=jump-to-playlist;sharecode=KOVAAKSBOBBINGSNEAKYBLOOM,steam://run/824270/?action=jump-to-playlist;sharecode=KovaaKsChokingGooshedAimbot*
+Sun:steam://run/824270/?action=jump-to-playlist;sharecode=KovaaKsBottingShinyDoor,steam://run/824270/?action=jump-to-playlist;sharecode=KovaaKsGearingMehLowground*
