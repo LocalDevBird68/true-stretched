@@ -254,12 +254,12 @@ echo.
 echo Press any key to copy the share code for the first playlist...
 pause >nul
 type filtered_firsttask_kovaaks.txt| clip >nul
-echo [Task Launched]
+echo [Task Copied]
 echo.
 echo Press any key to copy the share code for the second playlist...
 pause >nul
 type filtered_secondtask_kovaaks.txt| clip >nul
-echo [Task Launched]
+echo [Task Copied]
 echo.
 echo Press any key to return to the main menu...
 pause >nul
