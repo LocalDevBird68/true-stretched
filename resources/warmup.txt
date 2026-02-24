@@ -32,7 +32,8 @@ PHANTOM
     -headshot a bot, start spraying and transfer to 3 other bots, rinse n repeat
 
 -do some deadzoning n counter strafing while shooting
-    -only one step = no need for cs
+    -track one point, dz and shoot or cs and shoot
+    -lrll/rlrr as well dont forget
 
 -turn on medium bots, follow stop timing drill
     -strafe, adjust to the head, then counterstrafe and shoot, don’t flick to middle
@@ -73,11 +74,15 @@ DEATHMATCH
 
 -two miyagi method dm
 	-no shooting, just track
+-focus on crosshair placement and tracking
 	-keep your movement the same, cs, dz, peeking
-		-only cs or dz once you’ve “confirmed” but don’t shoot
+		-try to only cs or dz once youve confirmed but don’t shoot
 
+-for these, focus on peeking and deadzoning
 -one good ghost dm
 -one good sheriff dm
+
+-for these, focus on mid gunfight movement
 -one good phantom dm
 -one good vandal dm
 
