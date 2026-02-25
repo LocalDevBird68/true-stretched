@@ -1,12 +1,16 @@
 WRIST WARMUP
 -interlace fingers and hands, spin for 15 seconds
+
 -curve fingers as far up hand as possible, apply pressure to fingers with other palm and use fingertips to bend the hand
     -repeat on both hands
     -stretches up the palm of the hand with curved fingertips
+    
 -then keep fingers closed, point hand down as far as possible, and push it back further with other hand
     -make sure arm is straight
     -might need to ground elbow to table so you can apply more pressure
     -stretch up forearm
+
+------------------------------------------------------------------
 
 RANGE WARMUP
 
@@ -14,6 +18,8 @@ RANGE WARMUP
 - if you start noticing constant tension, stop and fix it
 - dont go too fast, do it as fast as you can accurately
     - in other words dont break ur wrist trying to flick frantically fast, take ur time ur warming up
+
+------------------------------------------------------------------
 
 TRACKING EXERCISE
 -can change weapon to make your strafing slower/faster for difficulty
@@ -23,6 +29,8 @@ TRACKING EXERCISE
 -try to track bot while strafing yourself
 -after like a minute shoot the bot and do it again
 -repeat a couple times
+
+------------------------------------------------------------------
 
 PHANTOM
 
@@ -50,33 +58,28 @@ PHANTOM
     -counter strafe on bots, deadzone on shield balls
     -vice versa
 
+------------------------------------------------------------------
+
 VANDAL
 
--copy phantom's spray and iso shield and shoot practice
+-copy phantoms spray and iso shield and shoot practice
     -vandal has tighter timings so just to get the deadzoning and cs down
 
 -hop in plank all the way in the back of the range
     -ads, start strafing and shooting, following MASS
 
+------------------------------------------------------------------
+
 DEATHMATCH
 
 -keep playing dm until youre confident
 
--focus on something
-	-ALWAYS KEEP MASS IN THE HEAD
-		-try to confirm before shooting
-		-give myself more time by strafing so i can aim properly
-	-need to fix my insta crouch
-		-no crouch unless u are <15m or you’ve tagged enemy and <30m
+-keep your focus on the task. do not forget; focus what you’re trying to improve each dm.
 
--drill to try: limit to 3 cs or deadzones on rifle (combined, not separate) or 5 bullets on ghost
-	-if you exceed this limit, just track the enemies head while strafing but don’t shoot
-
+-for these, focus on crosshair placement and tracking
 -two miyagi method dm
-	-no shooting, just track
--focus on crosshair placement and tracking
-	-keep your movement the same, cs, dz, peeking
-		-try to only cs or dz once youve confirmed but don’t shoot
+	-volume real low, use reminder timer
+	-no shooting, just placement and track
 
 -for these, focus on peeking and deadzoning
 -one good ghost dm
@@ -87,15 +90,3 @@ DEATHMATCH
 -one good vandal dm
 
 repeat as necessary
-
-RANKED
-
--keep in mind that death doesnt always mean that the play was bad
-
--still look for a better alternative play in that situation
-
--rewatch deaths to really understand what was going on in the round
-
--play dms in between ranked matches to keep your mental and skills fresh
-    -play one where u run around and have fun to clear mental
-    -play a serious one
