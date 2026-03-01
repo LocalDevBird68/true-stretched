@@ -82,7 +82,6 @@ ELIM 50 DRILL
 
 -lots of blue lines? restart that run until you get a clean one
 
-
 ------------------------------------------------------------------
 
 DEATHMATCH
