@@ -1,3 +1,5 @@
+------------------------------------------------------------------
+
 WRIST WARMUP
 -interlace fingers and hands, spin for 15 seconds
 
@@ -14,7 +16,6 @@ WRIST WARMUP
 
 RANGE WARMUP
 
-- use iso
 - if you start noticing constant tension, stop and fix it
 - dont go too fast, do it as fast as you can accurately
     - in other words dont break ur wrist trying to flick frantically fast, take ur time ur warming up
@@ -33,29 +34,42 @@ TRACKING EXERCISE
 
 ------------------------------------------------------------------
 
-PHANTOM
+SPRAY CONTROL AND SPRAY TRANSFERS
 
--practice spray control & spray transfer
-    -vary time/distance and adjust the mouse movement as needed
-    -try to make the spread as tight as possible, more dense
-    -headshot a bot, start spraying and transfer to 3 other bots, rinse n repeat
+-practice bots on, no strafe
+-phantom and vandal
+
+-vary time/distance and adjust the mouse movement as needed
+-try to make the spread as tight as possible, more dense
+-headshot a bot, start spraying and transfer to 3 other bots, rinse n repeat
+
+------------------------------------------------------------------
+
+STOP TIMING / MASS DRILL
+
+-turn on medium bots, follow stop timing drill
+-use guardian
+
+-strafe, adjust to the head, then strafe and shoot, flick to middle and repeat
+    -once with deadzoning, once with cs
+    -in other words, move while aiming
+
+------------------------------------------------------------------
+
+STRAFING AND SHOOTING
+
+-use vandal and phantom
+
+-track a bots head for 3 seconds while strafing, then flick quickly to another bot, rinse and repeat
 
 -do some deadzoning n counter strafing while shooting
     -track one point, dz and shoot or cs and shoot
 
--turn on medium bots, follow stop timing drill
-    -use guardian
-    -strafe, adjust to the head, then strafe and shoot, flick to middle and repeat
-        -once with deadzoning, once with cs
-    -in other words, move while aiming
-
--track a bots head for 3 seconds while strafing, then flick quickly to another bot, rinse and repeat
-
 -strafe and shoot a little bit
-	-cs, dz
+	-counter strafe for closer targets, deadzone for far targets
 	-slow down if there's blue lines/whiffing
 
-~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+------------------------------------------------------------------
 
 ELIM 50 DRILL
 
@@ -67,14 +81,6 @@ ELIM 50 DRILL
 2nd run - only counterstrafing
 
 -lots of blue lines? restart that run until you get a clean one
-
-
-------------------------------------------------------------------
-
-VANDAL
-
--copy phantoms spray and elim 50 drill practice
-    -vandal has tighter timings so just to get the deadzoning and cs down
 
 ------------------------------------------------------------------
 
