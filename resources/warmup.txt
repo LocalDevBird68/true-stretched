@@ -23,6 +23,7 @@ RANGE WARMUP
 ------------------------------------------------------------------
 
 TRACKING EXERCISE
+
 -can change weapon to make your strafing slower/faster for difficulty
 -react naturally, do not predict
 -envision the character model as a big oval but just aim at the top of it
@@ -90,16 +91,18 @@ DEATHMATCH
 
 -keep your focus on the task. do not forget; focus what youre trying to improve each dm.
 
+-keep using ur mouse to aim btw, don't only aim using kb
+
 -for these, focus on crosshair placement and tracking
--two miyagi method dm
+-one miyagi method dm
 	-volume real low, use reminder timer
 	-no shooting, just placement and track
 
 -for these, focus on peeking and deadzoning
 -one good ghost dm
--one good sheriff dm
 
 -for these, focus on mid gunfight movement
+    -if you find yourself panicking, get rid of that sense of urgency to relax
 -one good phantom dm
 -one good vandal dm
 
