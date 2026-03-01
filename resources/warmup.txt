@@ -23,12 +23,13 @@ RANGE WARMUP
 
 TRACKING EXERCISE
 -can change weapon to make your strafing slower/faster for difficulty
+-react naturally, do not predict
+-envision the character model as a big oval but just aim at the top of it
 
 -elim 50
 -strafing bots on
--try to track bot while strafing yourself
--after like a minute shoot the bot and do it again
--repeat a couple times
+-track bot without strafing at all for a bit
+-try to track bot while strafing yourself for a bit
 
 ------------------------------------------------------------------
 
@@ -41,32 +42,39 @@ PHANTOM
 
 -do some deadzoning n counter strafing while shooting
     -track one point, dz and shoot or cs and shoot
-    -lrll/rlrr as well dont forget
 
 -turn on medium bots, follow stop timing drill
-    -strafe, adjust to the head, then counterstrafe and shoot, don’t flick to middle
-        -once with deadzoning once with cs
+    -use guardian
+    -strafe, adjust to the head, then strafe and shoot, flick to middle and repeat
+        -once with deadzoning, once with cs
     -in other words, move while aiming
 
 -track a bots head for 3 seconds while strafing, then flick quickly to another bot, rinse and repeat
 
 -strafe and shoot a little bit
-    -deadzone deadzone 2 bullet burst w/ cs, 2 bullet burst w/ cs
-    - lrll/rlrr
+	-cs, dz
+	-slow down if there's blue lines/whiffing
 
--pop shield
-    -counter strafe on bots, deadzone on shield balls
-    -vice versa
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+ELIM 50 DRILL
+
+-strafe on, hit start
+-react naturally, do not predict
+-envision the character model as a big oval but just aim at the top of it
+
+1st run - only deadzoning
+2nd run - only counterstrafing
+
+-lots of blue lines? restart that run until you get a clean one
+
 
 ------------------------------------------------------------------
 
 VANDAL
 
--copy phantoms spray and iso shield and shoot practice
+-copy phantoms spray and elim 50 drill practice
     -vandal has tighter timings so just to get the deadzoning and cs down
-
--hop in plank all the way in the back of the range
-    -ads, start strafing and shooting, following MASS
 
 ------------------------------------------------------------------
 
@@ -74,7 +82,7 @@ DEATHMATCH
 
 -keep playing dm until youre confident
 
--keep your focus on the task. do not forget; focus what you’re trying to improve each dm.
+-keep your focus on the task. do not forget; focus what youre trying to improve each dm.
 
 -for these, focus on crosshair placement and tracking
 -two miyagi method dm
@@ -88,5 +96,8 @@ DEATHMATCH
 -for these, focus on mid gunfight movement
 -one good phantom dm
 -one good vandal dm
+
+-focus on mid gunfight movement
+-one tdm
 
 repeat as necessary
