@@ -68,7 +68,7 @@ STRAFING AND SHOOTING
 
 -strafe and shoot a little bit
 	-counter strafe for closer targets, deadzone for far targets
-	-slow down if there's blue lines/whiffing
+	-slow down if theres blue lines/whiffing
 
 ------------------------------------------------------------------
 
@@ -87,26 +87,121 @@ ELIM 50 DRILL
 
 DEATHMATCH
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+TIPS TO KEEP IN MIND
+
 -keep playing dm until youre confident
 
 -keep your focus on the task. do not forget; focus what youre trying to improve each dm.
 
--keep using ur mouse to aim btw, don't only aim using kb
+-keep using ur mouse to aim btw, dont only aim using kb
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 -for these, focus on crosshair placement and tracking
 -one miyagi method dm
 	-volume real low, use reminder timer
 	-no shooting, just placement and track
 
+
 -for these, focus on peeking and deadzoning
 -one good ghost dm
 
--for these, focus on mid gunfight movement
+
+-for these, focus on mid gunfight movement and hygiene
     -if you find yourself panicking, get rid of that sense of urgency to relax
+    -burst in 10-30, dont crouch if >15m unless tagged and <20m
 -one good phantom dm
 -one good vandal dm
-
--focus on mid gunfight movement
 -one tdm
 
-repeat as necessary
+
+
+
+
+
+
+
+
+------------------------------------------------------------------
+
+AIMLABS TECHNIQUE
+
+GENERAL
+
+-move mouse only as needed, minimize distance and number of motions of the crosshair.
+    -clean, straight lines
+
+-make movements quick while minimizing shakiness and jitter and maintain your accuracy
+    -shakiness and jitter is normal with undeveloped tracking
+
+-focus on technique and accuracy
+
+------------------------------------------------------------------
+
+TENSION MANAGEMENT
+
+-use tension sparingly
+
+-avoid death gripping (max tension) but also being fully relaxed (no tension)
+    -tension is needed for speed
+
+-use the tension in bursts, release it early during flicks
+    -flick kinda looks like it eases into the micro
+
+-micros have low tension and are smooth
+
+-take breaks if anything starts to hurt
+
+------------------------------------------------------------------
+
+TASK-SPECIFIC
+
+-pokeball, hold down ctrl
+
+-read the map, use peripherals for next targets
+
+-set accuracy and score thresholds to train brain
+
+
+STATIC
+
+-flick fast with a controlled micro correction
+    -early tension release + relaxed micro
+    -keep lines as straight as possible
+
+-once you start hitting every initial flick, push the speed to get out of comfort zone
+
+-restart if you miss within 10s or on the 4th miss
+
+
+TRACKING
+
+-react, do not predict
+
+-keep tension low, try to make smooth movements
+
+-assume target wont switch directions, then once it does, follow this:
+    -one smooth micro to center or closest edge
+        -miss? let it pull ahead
+    -back to smooth tracking
+    -repeat once it changes directions
+
+-focus on speedmatching and smoothness
+
+
+DYNAMIC
+
+-fast initial leading flick, relaxed leading micro
+    -want to end up where target will be
+
+-do not wait for the bot to enter crosshair for a long time
+
+-focus on accuracy
+    -track for like 150ms before shooting
+    -try to keep above 80 percent
+
+-dont chase a bot
+    -not focusing on one individual bot
+    -focus on the next one and flick after clicking
