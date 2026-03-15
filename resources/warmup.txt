@@ -14,74 +14,170 @@ WRIST WARMUP
 
 ------------------------------------------------------------------
 
+
+
+
+
+
+
+------------------------------------------------------------------
+
 RANGE WARMUP
 
 - if you start noticing constant tension, stop and fix it
+- keep lines straight, not shaky/jagged
+- vary movement (& distance if applicable)
+
 - dont go too fast, do it as fast as you can accurately
     - in other words dont break ur wrist trying to flick frantically fast, take ur time ur warming up
 
 ------------------------------------------------------------------
 
-TRACKING EXERCISE
 
--can change weapon to make your strafing slower/faster for difficulty
--react naturally, do not predict
--envision the character model as a big oval but just aim at the top of it
-
--elim 50
--strafing bots on
--track bot without strafing at all for a bit
--try to track bot while strafing yourself for a bit
 
 ------------------------------------------------------------------
 
-SPRAY CONTROL AND SPRAY TRANSFERS
+THREE BOTS + MOVEMENT
 
--practice bots on, no strafe
--phantom and vandal
+- breach ult bots to one side, then shoot three bots
+- move in between each shot
+- jump in middle, vary distance from bots
+    - farther for micros, closer for larger flicks
 
--vary time/distance and adjust the mouse movement as needed
--try to make the spread as tight as possible, more dense
--headshot a bot, start spraying and transfer to 3 other bots, rinse n repeat
+- guardian time
+    - 1 minute
+    - practice one taps & accuracy
+
+- vandal time
+    - 1 minute
+    - practice bursting
+        - close together? do a spray transfer
+
+- phantom time
+    - copy vandal, 1 minute
+
+------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------
+
+TARGET SPRAYING
+
+- go to target outside range, set to 20m
+
+- infinite ammo off
+
+- keep your head moving! start standing, but tap crouch
+
+- shoot entire mag into target, keep spray tight
+    - take any notes about how you should adjust ur spray
+
+- do five times for vandal, and another five for phantom
+
+------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------
+
+SPRAY TRANSFERS (FLYING BOTS)
+
+- same thing, vary head movement, dont just hold crouch
+
+- break two flying targets
+- break two sova drones
+
+- practice for two minutes
+    - one minute with vandal
+    - one minute with phantom
+
+------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------
+
+SPRAY TRANSFERS (RANGE)
+
+- breach ult until three bots
+- jump in middle
+- spray transfer two/three bots at a time with rifles
+
+- one minute for vandal
+- one minute for phantom
+
+
+------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------
+
+STATIONARY BOT TRACKING
+
+- eliminate 100, strafe off
+- jump in middle
+- vary movement and distance, don't just only strafe left to right
+
+- track bots head for 5-10 seconds before shooting it and repeating
+- do for one minute
+
+------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------
+
+STRAFING BOT TRACKING
+
+- eliminate 100, strafe on
+- jump in middle
+- vary movement and distance, don't just only strafe left to right
+
+- react, don't predict.
+
+- track bots head for 5-10 seconds before shooting it and repeating
+- do for one minute
+
+------------------------------------------------------------------
+
+
 
 ------------------------------------------------------------------
 
 STOP TIMING / MASS DRILL
 
--turn on medium bots, follow stop timing drill
--use guardian
+- turn on medium bots
+- sit farther back in the range
+- use guardian
 
--strafe, adjust to the head, then strafe and shoot, flick to middle and repeat
-    -once with deadzoning, once with cs
-    -in other words, move while aiming
+- strafe, adjust to the head, then cs/dz and shoot
+- flick to middle, shoot and repeat
 
-------------------------------------------------------------------
-
-STRAFING AND SHOOTING
-
--use vandal and phantom
-
--track a bots head for 3 seconds while strafing, then flick quickly to another bot, rinse and repeat
-
--do some deadzoning n counter strafing while shooting
-    -track one point, dz and shoot or cs and shoot
-
--strafe and shoot a little bit
-	-counter strafe for closer targets, deadzone for far targets
-	-slow down if theres blue lines/whiffing
+- once with deadzoning, once with cs
 
 ------------------------------------------------------------------
 
-ELIM 50 DRILL
 
--strafe on, hit start
--react naturally, do not predict
--envision the character model as a big oval but just aim at the top of it
 
-1st run - only deadzoning
-2nd run - only counterstrafing
+------------------------------------------------------------------
 
--lots of blue lines? restart that run until you get a clean one
+PISTOL ROUND
+
+- eliminate 50, strafe on
+- jump into middle
+
+- move, readjust, shoot
+    - keep yourself moving while readjusting
+
+------------------------------------------------------------------
+
+
+
+
+
+
 
 ------------------------------------------------------------------
 
@@ -118,20 +214,7 @@ TIPS TO KEEP IN MIND
 -one good vandal dm
 -one tdm
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+------------------------------------------------------------------
 
 
 
@@ -180,6 +263,7 @@ TASK-SPECIFIC
 
 -set accuracy and score thresholds to train brain
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 STATIC
 
@@ -191,6 +275,7 @@ STATIC
 
 -restart if you miss within 10s or on the 4th miss
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 TRACKING
 
@@ -206,6 +291,7 @@ TRACKING
 
 -focus on speedmatching and smoothness
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 DYNAMIC
 
