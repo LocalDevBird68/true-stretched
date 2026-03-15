@@ -111,10 +111,26 @@ TIPS TO KEEP IN MIND
 
 -for these, focus on mid gunfight movement and hygiene
     -if you find yourself panicking, get rid of that sense of urgency to relax
+        -i got all the time in the world
     -burst in 10-30, dont crouch if >15m unless tagged and <20m
+
 -one good phantom dm
 -one good vandal dm
 -one tdm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -205,3 +221,5 @@ DYNAMIC
 -dont chase a bot
     -not focusing on one individual bot
     -focus on the next one and flick after clicking
+
+------------------------------------------------------------------
