@@ -1,16 +1,20 @@
 ------------------------------------------------------------------
 
 WRIST WARMUP
--interlace fingers and hands, spin for 15 seconds
 
--curve fingers as far up hand as possible, apply pressure to fingers with other palm and use fingertips to bend the hand
-    -repeat on both hands
-    -stretches up the palm of the hand with curved fingertips
+- interlace fingers and hands, spin for 15 seconds
+
+- curve fingers as far up hand as possible
+- apply pressure to fingers with other palm
+- use fingertips to bend the hand
+
+- repeat on both hands
+- stretches up the palm of the hand with curved fingertips
     
--then keep fingers closed, point hand down as far as possible, and push it back further with other hand
-    -make sure arm is straight
-    -might need to ground elbow to table so you can apply more pressure
-    -stretch up forearm
+- then keep fingers closed, point hand down as far as possible, and push it back further with other hand
+    - make sure arm is straight
+    - might need to ground elbow to table so you can apply more pressure
+    - stretch up forearm
 
 ------------------------------------------------------------------
 
@@ -38,60 +42,16 @@ RANGE WARMUP
 
 ------------------------------------------------------------------
 
-THREE BOTS + MOVEMENT
-
-- breach ult bots to one side, then shoot three bots
-- move in between each shot
-- jump in middle, vary distance from bots
-    - farther for micros, closer for larger flicks
-
-- guardian time
-    - 1 minute
-    - practice one taps & accuracy
-
-- vandal time
-    - 1 minute
-    - practice bursting
-        - close together? do a spray transfer
-
-- phantom time
-    - copy vandal, 1 minute
-
-------------------------------------------------------------------
-
-
-
-------------------------------------------------------------------
-
-TARGET SPRAYING
+TARGET SPRAYING (OUTSIDE RANGE)
 
 - go to target outside range, set to 20m
 
 - infinite ammo off
 
-- keep your head moving! start standing, but tap crouch
-
 - shoot entire mag into target, keep spray tight
     - take any notes about how you should adjust ur spray
 
 - do five times for vandal, and another five for phantom
-
-------------------------------------------------------------------
-
-
-
-------------------------------------------------------------------
-
-SPRAY TRANSFERS (FLYING BOTS)
-
-- same thing, vary head movement, dont just hold crouch
-
-- break two flying targets
-- break two sova drones
-
-- practice for two minutes
-    - one minute with vandal
-    - one minute with phantom
 
 ------------------------------------------------------------------
 
@@ -164,13 +124,55 @@ STOP TIMING / MASS DRILL
 
 ------------------------------------------------------------------
 
-PISTOL ROUND
+PEEK FLICK AND CLICK DRILL
+- turn on medium bots
+- sit farther back in the range
+- use guardian
 
-- eliminate 50, strafe on
-- jump into middle
+- strafe, stop when bot appears, adjust to the head, and shoot
+- flick to middle, shoot and repeat
 
-- move, readjust, shoot
-    - keep yourself moving while readjusting
+------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------
+
+THREE BOTS + MOVEMENT
+
+- breach ult bots to one side, then shoot three bots
+- move in between each shot
+- jump in middle, vary distance from bots
+    - farther for micros, closer for larger flicks
+
+- deadzone and counter strafe drills first
+
+- guardian time
+    - 1 minute
+    - practice one taps & accuracy
+
+- vandal time
+    - 1 minute
+    - practice bursting
+        - close together? do a spray transfer
+
+- phantom time
+    - copy vandal, 1 minute
+
+------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------
+
+ELIM 50 DRILL
+
+- elim 50, strafe on
+- use guardian one time, then phantom
+
+- wait for bot to strafe first, then kill
+    - try not to shoot until you think you have a clear shot
+        - builds that discipline
 
 ------------------------------------------------------------------
 
@@ -200,12 +202,14 @@ TIPS TO KEEP IN MIND
 
 - for these, focus on peeking and deadzoning
 - one good ghost dm
+- one good guardian dm
 
 
-- for these, focus on mid gunfight movement and hygiene
-    - if you find yourself panicking, get rid of that sense of urgency to relax
+- for these, focus on gunfight hygiene
+    - work on bursting in 10-30
+    - only crouch if tagged and between 10-20m
+    - stop rushing shots
         - i got all the time in the world
-    - burst in 10-30, dont crouch if >15m unless tagged and <20m
 
 - one good phantom dm
 - one good vandal dm
