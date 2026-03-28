@@ -90,23 +90,6 @@ STATIONARY BOT TRACKING
 
 ------------------------------------------------------------------
 
-STRAFING BOT TRACKING
-
-- eliminate 100, strafe on
-- jump in middle
-- vary movement and distance, don't just only strafe left to right
-
-- react, don't predict.
-
-- track bots head for 5-10 seconds before shooting it and repeating
-- do for one minute
-
-------------------------------------------------------------------
-
-
-
-------------------------------------------------------------------
-
 STOP TIMING / MASS DRILL
 
 - turn on medium bots
@@ -200,18 +183,11 @@ TIPS TO KEEP IN MIND
 	- no shooting, just placement and track
 
 
-- for these, focus on peeking and deadzoning
-- one good ghost dm
+- focus on preaim (crosshair placement) and peeking
 - one good guardian dm
 
 
 - for these, focus on gunfight hygiene
-    - work on bursting in 10-30
-    - only crouch if tagged and between 10-20m
-    - stop rushing shots
-        - i got all the time in the world
-
-- one good phantom dm
 - one good vandal dm
 - one tdm
 
