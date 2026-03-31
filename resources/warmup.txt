@@ -177,19 +177,15 @@ TIPS TO KEEP IN MIND
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
-- for these, focus on crosshair placement and tracking
+- focus on crosshair placement and tracking during fight
 - one miyagi method dm
-	- use reminder timer
 	- no shooting, just placement and track
 
-
-- focus on preaim (crosshair placement) and peeking
+- focus on movement around peeking (including preaiming + visualize before peek)
 - one good guardian dm
 
-
-- for these, focus on gunfight hygiene
+- focus on gunfight hygiene
 - one good vandal dm
-- one tdm
 
 ------------------------------------------------------------------
 
