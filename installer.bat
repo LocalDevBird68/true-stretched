@@ -19,7 +19,59 @@ echo.
 cls
 pause
 
+:: --------------------------------------------------------------------------------------------
 
+:: ask if it wants custom res or not, if not then just generate the ini and shortcuts with normal res
+:askcustom
+echo.
+set /p choice="do you want a custom resolution (not 1568x1080/2088x1440)? (y/n): "
+IF /I "%choice%"=="y" (
+    goto askcustomwidth
+) ELSE (
+    goto askwidth
+)
+
+:: ask for custom res
+:askcustomwidth
+echo.
+set /p choice="what is the custom resolution width? (ex: 1440): "
+set /a stretchedWidthInt=%choice%
+IF %stretchedWidthInt% == 0 (
+    echo.
+    echo that was not an integer, please try again
+    echo.
+    goto askcustomwidth
+) ELSE (
+    goto askcustomheight
+)
+
+:askcustomheight
+echo.
+set /p choice="what is the custom resolution height? (ex: 1080): "
+set /a heightInt=%choice%
+IF %heightInt% == 0 (
+    echo.
+    echo that was not an integer, please try again
+    echo.
+    goto askcustomheight
+) ELSE (
+    goto askoriginalwidth
+)
+
+:askoriginalwidth
+echo.
+set /p choice="what is the original resolution width? (ex: 1920): "
+set /a widthInt=%choice%
+IF %widthInt% == 0 (
+    echo.
+    echo that was not an integer, please try again
+    echo.
+    goto askoriginalwidth
+) ELSE (
+    goto askrefreshrate
+)
+
+:: --------------------------------------------------------------------------------------------
 
 :: ask for resolution details
 :askwidth
@@ -48,6 +100,8 @@ IF %heightInt% == 0 (
 ) ELSE (
     goto askrefreshrate
 )
+
+:: --------------------------------------------------------------------------------------------
 
 :askrefreshrate
 echo.

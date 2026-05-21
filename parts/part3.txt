@@ -3,7 +3,6 @@ exit /b
 
 :exit
 cls
-call :LOGO
 cd %firstDirectory% >nul
 
 :: process watcher starts here

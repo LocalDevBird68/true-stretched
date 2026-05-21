@@ -5,6 +5,7 @@ LastGPUBenchmarkResult=-1.000000
 LastGPUBenchmarkMultiplier=1.000000
 bUseHDRDisplayOutput=False
 HDRDisplayOutputNits=1000
+FullscreenMode=0
 
 [/Script/Engine.GameUserSettings]
 bUseDesiredScreenHeight=False

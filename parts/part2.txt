@@ -10,7 +10,6 @@ echo ^> (K)ovaaK's (Relaunch Support)
 echo ^> (V)ALORANT (Relaunch Support w/ Account Selection)
 echo ^> (C)ounter-Strike (Relaunch Support)
 echo ^> (E)xit
-echo ^> (W)armup File
 echo.
 set /p selection="> "
 
@@ -19,32 +18,6 @@ if /I "%selection%"=="K" goto kovaaks
 if /I "%selection%"=="V" goto accountswitch
 if /I "%selection%"=="C" goto cs2
 if /I "%selection%"=="E" goto manualexit
-if /I "%selection%"=="W" goto warmupfile
-goto inthebeninging
-
-:: ---------------------------------------------------------------------------------------------------------------------------------
-
-:warmupfile
-cd /d %firstDirectory%/resources
-cls
-
-
-if not exist warmup.txt (
-	echo.
-    echo No warmup file detected. Please create a file called "warmup.txt" in the resources folder.
-    echo Press any key to return to the main menu...
-    pause >nul
-    goto inthebeninging
-)
-
-echo.
-echo Displaying warmup file contents:
-echo.
-type warmup.txt
-echo.
-echo.
-echo Press any key to return to the main menu...
-pause >nul
 goto inthebeninging
 
 :: ---------------------------------------------------------------------------------------------------------------------------------
